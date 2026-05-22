@@ -14,4 +14,3 @@ I have also participated in a First Flight competitive audit, where I identified
 
 This repository serves as a public track record of my progress in smart contract security research and auditing.
 
-Still learning. Still auditing. Still improving.
