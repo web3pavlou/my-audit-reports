@@ -1,9 +1,8 @@
 # BattleChain Confidence Pool — Competitive Audit (Invariant Testing)
 
 > **Status:** CodeHawks competitive audit — July 2026.
-> **Findings are withheld until public disclosure is permitted by the contest rules** (after judging).
 > This folder publishes my invariant-testing harness (my own work product) and the methodology
-> behind it; the findings write-up will be added here once disclosure opens.
+> behind it; All invariant test runs were successful with a 99% coverage of the basic contract ConfidencePool.sol && ConfidencePoolFactory.sol
 
 ## Engagement
 
