@@ -1,18 +1,14 @@
 ## About
 
-This repository contains audit reports for protocols featured in the educational material from Cyfrin Updraft.
+This repository contains 2 kind of audit reports for protocols:
+1.featured in the educational material from Cyfrin Updraft.
+2.Real competitive audits
 
-The reports are not simple reproductions of the walkthroughs. I expand on the original material by:
-- writing Proof of Code where needed,
-- identifying additional findings,
-- trying to improve explanations and mitigations,
-- and performing deeper protocol analysis to strengthen my smart contract security skills.
+The reports from Cyfrin Updraftare not simple reproductions of the walkthroughs. I try to expand on the original material.
 
 I have also participated in a First Flight competitive audit, where I identified:
 - 2 Highs
 - 2 Lows
-
-This repository serves as a public track record of my progress in smart contract security research and auditing.
 
 
 ## Competitive Audits
@@ -21,3 +17,6 @@ This repository serves as a public track record of my progress in smart contract
   `ConfidencePool` clone + UUPS factory using stateful Echidna. Harness + methodology in
   [`competitive/battlechain-confidence-pool/`](competitive/battlechain-confidence-pool/).
   Findings added after public disclosure.
+
+
+This repository serves as a public track record of my progress in smart contract security research and auditing.
