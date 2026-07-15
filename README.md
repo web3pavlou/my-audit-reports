@@ -14,3 +14,10 @@ I have also participated in a First Flight competitive audit, where I identified
 
 This repository serves as a public track record of my progress in smart contract security research and auditing.
 
+
+## Competitive Audits
+
+- **BattleChain Confidence Pool** (CodeHawks, July 2026) — invariant-testing review of the
+  `ConfidencePool` clone + UUPS factory using stateful Echidna. Harness + methodology in
+  [`competitive/battlechain-confidence-pool/`](competitive/battlechain-confidence-pool/).
+  Findings added after public disclosure.
