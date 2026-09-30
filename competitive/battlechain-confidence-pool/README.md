@@ -1,8 +1,10 @@
 # BattleChain Confidence Pool — Competitive Audit (Invariant Testing)
 
 > **Status:** CodeHawks competitive audit — July 2026.
-> This folder publishes my invariant-testing harness (my own work product) and the methodology
+> This folder publishes my finding(m) + the invariant-testing harness & methodology 
 > behind it; All invariant test runs were successful with a 99% coverage of the basic contract ConfidencePool.sol && ConfidencePoolFactory.sol
+> The finding is a logical error where a pool sponsor is  in parallel the agreement's attack-moderator and can manufacture a `CORRUPTED`
+> state to sweep every staker's principal to their own address
 
 ## Engagement
 
@@ -83,4 +85,4 @@ The harness in this folder is my own work. The contracts under audit are (c) the
 
 ---
 
-*Part of [my-audit-reports](../../README.md) — a public track record of my smart-contract security work.*
+
