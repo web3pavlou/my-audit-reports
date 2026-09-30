@@ -1,0 +1,27 @@
+# Echidna config — HCore, phase 1 (H-CORE scope)
+
+# Assertion mode: failures are assert() hits inside handlers/properties.
+# Reverts from the pool's own gates (paused, WithdrawsDisabled, StakingClosed)
+# are dead-end transactions, not failures.
+testMode: assertion
+
+# Smoke budget for every harness edit. Soak runs: raise to 5_000_000+.
+testLimit: 500000
+
+# Calls per sequence. Enough to stake several actors, walk the registry,
+# warp months forward, and still land property calls.
+seqLen: 100
+
+# Deep temporal sequences shrink slowly — don't starve the shrinker,
+# an unshrunk counterexample here is unreadable.
+shrinkLimit: 5000
+
+# corpus
+corpusDir: echidna-corpus/hcore
+coverage: true
+
+# Ambient time/block drift stays small; h_warp owns the big, deliberate
+# jumps (and later the boundary snaps). Small drift + intentional jumps
+# shrink far cleaner than 7-day random deltas.
+maxTimeDelay: 86400
+maxBlockDelay: 7200
