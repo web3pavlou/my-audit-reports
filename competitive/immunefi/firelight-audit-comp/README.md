@@ -4,19 +4,15 @@ This directory contains my submissions and supporting material from the **Fireli
 
 For me, this competition was a particularly disheartening introduction to competitive security research.
 
-I spent almost two weeks doing deep manual work on the protocol, supported by AI-assisted analysis and custom testing. I submitted findings that I believed were valid and backed by concrete, reproducible Proofs of Concept. The outcome left me with more questions about the current state of competitive SR than answers.
-
 ## My Experience
 
 My experience of the competition included:
 
-* impactful findings being downgraded;
-* findings being assessed against assumptions about off-chain components that researchers could not actually audit;
-* findings with reproducible PoCs being rejected by the project with explanations I consider technically unconvincing;
-* extremely strong competition from researchers using increasingly sophisticated AI-assisted workflows;
-* and a system where speed and discovery pipelines can matter at least as much as the depth of a manual protocol review.
+* findings being downgraded, assessed against assumptions about off-chain components that researchers could not actually audit;
+* findings with reproducible PoCs being rejected by the project with explanations I consider technically unconvincing, not saying utterly wrong;
 
-I approached this as a serious attempt to build a career in security research. I left a lot on the table to pursue that goal.
+I approached this competition as a serious attempt to build a career in security research, and I believe I performed well. I finished in the top 10 among 132 security researchers, so this is not intended as a "cry me a river" reference, but rather as a factual record of how the competition unfolded from my perspective.
+
 
 The result was:
 
@@ -25,9 +21,8 @@ $160 spent on submissions and fees
 
 3 valid findings
 5 invalid findings
-2 invalid findings that I believe were wrongly rejected
 
-Damage: $66 + countless hours of work
+Damage: $66 
 ```
 
 ## The Part That Stuck With Me
@@ -85,14 +80,16 @@ This is not intended as a substitute for the original competition record.
 
 It is a permanent record of what I submitted, what was technically demonstrated, what the triage process acknowledged, what the project decided, and how I responded.
 
-Competitive security research is changing rapidly. Bugs increasingly emerge from automated analysis, AI-assisted workflows, and increasingly sophisticated research pipelines. That does not make deep manual understanding irrelevant, but it does change the competitive environment for researchers entering the space.
+Competitive security research is changing rapidly. Bugs increasingly emerge from automated analysis, AI-assisted workflows, and increasingly sophisticated research pipelines. That does not make deep manual understanding irrelevant, but it does change the competitive environment for novice researchers entering the space. This is at least my point of view.
 
 This competition made that reality very clear to me.
 
-I was taught that becoming a strong security researcher meant deeply understanding a protocol, tracing its invariants, understanding its architecture, and manually hunting for places where those assumptions break.
+I was taught that becoming a strong security researcher meant deeply understanding a protocol, tracing its invariants, understanding its architecture, and manually hunting for places where those assumptions break, but those seem rather distant in the wild.
 
 I still believe those skills matter.
 
 What I am less certain about is whether they are enough, on their own, in the current competitive environment.
 
 This folder is part of my attempt to document that experience rather than quietly move on from it.
+
+Thank you to everyone who took the time to read this.
