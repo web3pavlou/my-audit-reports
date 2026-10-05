@@ -19,7 +19,7 @@ This repository serves as a public record of my progress in smart contract secur
 
 Invariant-testing review of the `ConfidencePool` clone and UUPS factory using stateful Echidna.
 
-The repository contains the testing harness, methodology, and supporting audit material:
+The repository contains the testing harness, methodology, and supporting audit material alongst with my one medium finding:
 
 [`competitive/codehawks/battlechain-confidence-pool/`](competitive/codehawks/battlechain-confidence-pool/)
 
